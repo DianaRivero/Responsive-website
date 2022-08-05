@@ -1,3 +1,8 @@
+:root{
+  --primary-color: #6c63ff;
+  --secondary-color:#f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
 body{
     margin:0, auto;
 }
@@ -14,4 +19,19 @@ h1{
 h1 span{
     font-size:2em;
     display:block;
+}
+.navigation-links{
+    font-size: 1em;
+    font-weight: 400;
+    box-shadow: var(--box-shadow);
+}
+
+.contact-link{
+    background: var(--primary-color);
+    color:#FFFFFF;
+}
+.about-link{
+    background: #FFFFFF;
+    color:var(--primary-color);
+    border:1px solid var(--primary-color);
 }
