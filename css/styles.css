@@ -12,7 +12,7 @@ h1,h2{
 }
 
 h1{
-    margin-top:2.5em;
+    margin-top:2em;
     font-size: 3em;
     
 }
@@ -49,4 +49,21 @@ p{
 }
 .img-radius{
     border-radius: 4%;
+}
+#contact h2{
+    font-size:3em;
+    opacity:1;
+}
+.about{
+    margin-top:1.2em;
+    font-size: 6em;
+}
+.email-link{
+    font-size:1.5em;
+    color:var(--primary-color);
+    display:block;
+    text-align: center;
+}
+.email-link :hover{
+    color:blue;
 }
