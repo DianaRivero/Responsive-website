@@ -1,74 +1,86 @@
-:root{
+:root {
   --primary-color: #6c63ff;
-  --secondary-color:#FFFFFF;
+  --secondary-color: #ffffff;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-body{
-    margin:0, auto;
-}
-h1,h2{
-    text-align: center;
 
+body {
+  margin: 0, auto;
 }
 
-h1{
-    margin-top:2em;
-    font-size: 3em;
-    
-}
-h1 span{
-    font-size:2em;
-    display:block;
+h1,
+h2 {
+  text-align: center;
 }
 
-h2{
-    font-size:1.5em;
-    opacity: 0.7;
-
-}
-h3{
-    font-size:3em;
-}
-p{
-    font-size:1.2em;
-}
-.navigation-links,.project-links{
-    font-size: 1em;
-    font-weight: 400;
-    box-shadow: var(--box-shadow);
+h1 {
+  margin-top: 2em;
+  font-size: 3em;
 }
 
-.contact-link, .project-links{
-    background: var(--primary-color);
-    color: var(--secondary-color);
+h1 span {
+  font-size: 2em;
+  display: block;
 }
-.about-link{
-    background: var(--secondary-color);
-    color:var(--primary-color);
-    border:1px solid var(--primary-color);
-}
-.img-radius{
-    border-radius: 4%;
-}
-#contact h2{
-    font-size:3em;
-    opacity:1;
-}
-.about{
-    margin-top:1.2em;
-    font-size: 6em;
-}
-.email-link{
-    font-size:1.5em;
-    color:var(--primary-color);
-    display:block;
-    text-align: center;
-}
-.email-link :hover{
-    color:blue;
-}
-.gallery-img{
-    border:2px;
-    box-shadow: var(--box-shadow);
 
+h2 {
+  font-size: 1.5em;
+  opacity: 0.7;
+}
+
+h3 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.navigation-links,
+.project-links {
+  font-size: 1em;
+  font-weight: 400;
+  box-shadow: var(--box-shadow);
+}
+
+.contact-link,
+.project-links {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.about-link {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.img-radius {
+  border-radius: 4%;
+}
+
+#contact h2 {
+  font-size: 3em;
+  opacity: 1;
+}
+
+.about {
+  margin-top: 1.2em;
+  font-size: 6em;
+}
+
+.email-link {
+  font-size: 1.5em;
+  color: var(--primary-color);
+  display: block;
+  text-align: center;
+}
+
+.email-link :hover {
+  color: blue;
+}
+
+.gallery-img {
+  border: 2px;
+  box-shadow: var(--box-shadow);
 }

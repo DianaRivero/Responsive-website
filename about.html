@@ -1,68 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=b, initial-scale=1.0">
-        <title>About Diana Rivero | Frontend developer </title>
-        <meta name="description" content="Diana Rivero is an aspiring frontend developer based in Munich. Building web applications with Javascript, React HTML,CSS,Bootstrap"></meta>
-        <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-        crossorigin="anonymous"/>
-        <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/styles.css"/>
-    </head>
-    <body>
-        <!-- FIXED NAVBAR (Code taken from Bootstrap) -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ps-sm-5 ps-sm-5">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Diana Rivero</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html" title="Learn more about me">About me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html#contact" title="Contact me by e-mail">Contact me</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- ABOUT SECTION -->
-        <h1 class="about">About me</h1>
-        <h2 class="text-center m-2"> Front-end developer from Colombia 🇨🇴</h2>
-        <p class="text-center m-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum blanditiis harum.</p>
-        <!-- GALLERY-->
-        <div class="container">
-            <div class="row d-none d-sm-block d-lg-flex m-5">   
-                <div class="col">
-                    <img src="/images/yoga.png" alt="Yoga app picture" class="img-fluid img-radius gallery-img mb-5 p-3 p-md-5 p-lg-2">
-                </div>
-                <div class="col">            
-                    <img src="/images/weather.png" alt="Weather app picture" class="img-fluid img-radius gallery-img mb-5 p-3 p-md-5 p-lg-2">
-                </div>
-                <div class="col">            
-                    <img src="/images/yogurt.png" alt="Yogurt app picture" class="img-fluid img-radius gallery-img mb-5 p-3 p-md-5 p-lg-2">
-                </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=b, initial-scale=1.0" />
+    <title>About Diana Rivero | Frontend developer</title>
+    <meta
+      name="description"
+      content="Diana Rivero is an aspiring frontend developer based in Munich. Building web applications with Javascript, React HTML,CSS,Bootstrap"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- FIXED NAVBAR (Code taken from Bootstrap) -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light fixed-top ps-sm-5 ps-sm-5"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Diana Rivero</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html" title="Learn more about me">
+                About me
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="about.html#contact"
+                title="Contact me by e-mail"
+              >
+                Contact me
+              </a>
+            </li>
+          </ul>
         </div>
-        <!--CONTACT SECTION -->
-        <div id="contact" class="m-5">
-            <h2>📮 Contact me</h2>
-            <a href="mailto:[blabla@gmail.com]" class="email-link" title="Write me an e-mail">blabla@gmail.com</a>
+      </div>
+    </nav>
+    <!-- ABOUT SECTION -->
+    <h1 class="about">About me</h1>
+    <h2 class="text-center m-2">Front-end developer from Colombia 🇨🇴</h2>
+    <p class="text-center m-5">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam aperiam
+      provident tempora? Cumque adipisci, non dolorem quia, odit qui alias
+      veniam excepturi rem dolor fugit dignissimos, sed voluptatum blanditiis
+      harum.
+    </p>
+    <!-- GALLERY-->
+    <div class="container">
+      <div class="row d-none d-sm-block d-lg-flex m-5">
+        <div class="col">
+          <img
+            src="/images/yoga.png"
+            alt="Yoga app picture"
+            class="img-fluid img-radius gallery-img mb-5 p-3 p-md-5 p-lg-2"
+          />
         </div>
-    </body>
+        <div class="col">
+          <img
+            src="/images/weather.png"
+            alt="Weather app picture"
+            class="img-fluid img-radius gallery-img mb-5 p-3 p-md-5 p-lg-2"
+          />
+        </div>
+        <div class="col">
+          <img
+            src="/images/yogurt.png"
+            alt="Yogurt app picture"
+            class="img-fluid img-radius gallery-img mb-5 p-3 p-md-5 p-lg-2"
+          />
+        </div>
+      </div>
+    </div>
+    <!--CONTACT SECTION -->
+    <div id="contact" class="m-5">
+      <h2>📮 Contact me</h2>
+      <a
+        href="mailto:[blabla@gmail.com]"
+        class="email-link"
+        title="Write me an e-mail"
+      >
+        blabla@gmail.com
+      </a>
+    </div>
+  </body>
 </html>
-
-      
